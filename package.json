@@ -1,0 +1,28 @@
+{
+  "name": "mathpix-mmd-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "mathjax": "^4.0.0",
+    "mathpix-markdown-it": "^2.0.23",
+    "next": "15.5.2",
+    "openai": "^5.18.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.19.12",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "typescript": "^5"
+  }
+}
